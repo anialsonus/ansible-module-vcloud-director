@@ -1,5 +1,5 @@
 # Copyright © 2018 VMware, Inc. All Rights Reserved.
-# SPDX-License-Identifier: BSD-2-Clause
+# SPDX-License-Identifier: BSD-2-Clause OR GPL-3.0-only
 
 import os
 from lxml import etree
@@ -65,4 +65,4 @@ class VcdAnsibleModule(AnsibleModule):
         if task_status != TaskStatus.SUCCESS.value:
             raise Exception(etree.tostring(task_state, pretty_print=True))
 
-        return 1
+        return task_state

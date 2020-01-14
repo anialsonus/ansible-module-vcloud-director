@@ -8,3 +8,7 @@ docs/_posts
 docs/.sass-cache
 docs/.jekyll-metadata
 docs/404.html
+*.todo
+.ipynb_checkpoints/
+*.ipynb
+_site
