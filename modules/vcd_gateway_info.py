@@ -13,7 +13,7 @@ ANSIBLE_METADATA = {'metadata_version': '1.1',
                     'supported_by': 'community'}
 
 DOCUMENTATION = '''
-module: vcd_vdc_gateway
+module: vdc_gateway_info
 short_description: Ansible module to get info from edge gateway in vCloud Director.
 version_added: "2.7"
 description:
